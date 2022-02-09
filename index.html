@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+  <title>Yehui Tang's Homepage</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Yehui Tang is currently a PhD student at school of artifical intelligence, Peking University.">
+  <meta name="keywords" content="Yehui Tang, 唐业辉, tangyehui, Yehui, Tang, Deep Learning, PKU, Computer Vision, Machine Learning, Model Compression">
+  <meta name="author" content="Yehui Tang" />
+
+  <link rel="stylesheet" href="w3.css">
+
+  <style>
+  .w3-sidebar a {font-family: "Roboto", sans-serif}
+  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+  </style>
+
+  <link rel="icon" type="image/png" href="images/icons.jpg">
+  <!--
+  <script src="jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+  //-->
+
+</head>
+
+
+<body class="w3-content" style="max-width:1000px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <h3><b>YEHUI</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+    <a href="#service" class="w3-bar-item w3-button">Services</a>
+    <a href="#award" class="w3-bar-item w3-button">Awards</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24">YEHUI</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
+  </div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:150px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+<!-- The Home Section -->
+    <div class="w3-container w3-center w3-padding-32" id="home">
+      <img style="width: 80%;max-width: 200px" alt="profile photo" src="images/yehui.png">
+      <h1>Yehui Tang</h1>
+        <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+        
+          I am  a 4th-year PhD student at school of artifical intelligence, <a href="https://www.pku.edu.cn/">Peking University</a>, supervised by <a href="https://scholar.google.com/citations?hl=en&user=3J8OquAAAAAJ"> Prof. Chao Xu</a>. Currently, I am working as a research intern at <a href="http://dev3.noahlab.com.hk/research.html">Huawei Noah’s Ark Lab</a>, mentored by <a href="https://www.wangyunhe.site">Dr. Yunhe Wang</a>. I obtained B.S. from <a href="https://en.xidian.edu.cn/">Xidian University</a> at 2018. My main research interest lies in base models for computer vision (e.g., CNN, Vision Transformer, Vision MLP) and model compression (e.g, pruning).
+          <!--where I work on deep learning, model compression, and computer vision, etc. Before that, I did my PhD at school of EECS, <a href="https://www.pku.edu.cn/">Peking University</a>, where I was co-advised by Prof. <a href="https://dblp.org/pers/hd/x/Xu_0006:Chao">Chao Xu</a></a> and Prof. <a href="https://scholar.google.com.sg/citations?user=RwlJNLcAAAAJ">Dacheng Tao</a></a>. I did my bachelors at school of science, <a href="https://en.xidian.edu.cn/">Xidian University</a>.-->
+          
+        </p>
+        <p class="w3-center">
+          <a href="mailto:yhtang@pku.edu.cn">Email</a> &nbsp/&nbsp
+          <a href="https://scholar.google.com/citations?user=TkSZQ6gAAAAJ&hl=zh-CN">Google Scholar</a> &nbsp/&nbsp
+          <a href="https://dblp.org/pid/244/9659.html"> DBLP </a>
+        </p>
+        </tbody></table>
+  </div>
+
+ <!-- The Publications Section -->
+  <div class="w3-container w3-padding-32"" id="publications">
+    <h2>Publications</h2>
+    
+    <p>
+    <li><strong>Augmented Shortcuts for Vision Transformers</strong>
+    <br>
+    <strong>Yehui Tang</strong>,  Kai Han, Chang Xu, An Xiao, Yiping Deng, Chao Xu, Yunhe Wang
+    <br>
+    <em>CVPR</em> 2021 | <a style="color: #447ec9" href="https://proceedings.neurips.cc/paper/2021/file/818f4654ed39a1c147d1e51a00ffb4cb-Paper.pdf">paper</a> | <a style="color: #447ec9" href="https://gitee.com/mindspore/models/tree/master/research/cv/augvit">MindSpore code</a>
+    </p>
+    
+    <p>
+    <li><strong>Manifold Regularized Dynamic Network Pruning</strong>
+    <br>
+    <strong>Yehui Tang</strong>, Yunhe Wang, Yixing Xu, Yiping Deng, Chao Xu, Dacheng Tao, Chang Xu
+    <br>
+    <em>CVPR</em> 2021 | <a style="color: #447ec9" href="https://arxiv.org/pdf/2103.05861.pdf">paper</a> |
+    <a style="color: #447ec9" href="https://github.com/yehuitang/Pruning/tree/master/ManiDP">code</a> |
+    <a style="color: #447ec9" href="https://gitee.com/mindspore/models/tree/master/research/cv/ManiDP">MindSpore code</a>
+    </p>
+    
+    <p>
+    <li><strong>SCOP: Scientific Control for Reliable Neural Network Pruning</strong>
+    <br>
+    <strong>Yehui Tang</strong>, Yunhe Wang, Yixing Xu, Dacheng Tao, Chunjing Xu, Chao Xu, Chang Xu
+    <br>
+    <em>NeurIPS</em> 2020 | <a style="color: #447ec9" href="https://arxiv.org/pdf/2010.10732">paper</a> | <a style="color: #447ec9" href="https://www.mindspore.cn/resources/hub/details?2593/noah-cvlab/gpu/1.0/resnet-0.65x_v1.0_oxford_pets">code</a>
+    </p>
+    
+    <p>
+    <li><strong>A Semi-Supervised Assessor of Neural Architectures</strong>
+    <br>
+    <strong>Yehui Tang</strong>, Yunhe Wang, Yixing Xu, Hanting Chen, Boxin Shi, Chao Xu, Chunjing Xu, Qi Tian, Chang Xu
+    <br>
+    <em>CVPR</em> 2020 | <a style="color: #447ec9" href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Tang_A_Semi-Supervised_Assessor_of_Neural_Architectures_CVPR_2020_paper.pdf">paper</a>
+    </p>
+    
+    <p>
+    <li><strong>Beyond Dropout: Feature Map Distortion to Regularize Deep Neural Networks</strong>
+    <br>
+    <strong>Yehui Tang</strong>, Yunhe Wang, Yixing Xu, Boxin Shi, Chao Xu, Chunjing Xu, Chang Xu
+    <br>
+    <em>AAAI</em> 2020 | <a style="color: #447ec9" href="data/2020 AAAI dropblock.pdf">paper</a> | <a style="color: #447ec9" href="https://github.com/huawei-noah/disout">code</a>
+    </p>
+
+    <p>
+    <li><strong>Reborn filters: Pruning convolutional neural networks with limited data</strong>
+    <br>
+    <strong>Yehui Tang</strong>, Shan You, Chang Xu, Jin Han, Chen Qian, Boxin Shi, Chao Xu, Changshui Zhang
+    <br>
+    <em>AAAI</em> 2020 | <a style="color: #447ec9" href="https://ojs.aaai.org/index.php/AAAI/article/view/6058/5914">paper</a>
+    </p>
+    
+    <p>
+    <li><strong>Homogeneous Architecture Augmentation for Neural Predictor</strong>
+    <br>
+    Yuqiao Liu*, <strong>Yehui Tang*</strong>, Yanan Sun
+    <br>
+    <em>ICCV</em> 2021 (* equal contribution) | <a style="color: #447ec9" href="https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Homogeneous_Architecture_Augmentation_for_Neural_Predictor_ICCV_2021_paper.pdf">paper</a>
+    </p>
+    
+    
+    <p>
+    <li><strong>Learning frequency domain approximation for binary neural networks</strong>
+    <br>
+    Yixing Xu, Kai Han, Chang Xu, <strong>Yehui Tang</strong>, Chunjing Xu, Yunhe Wang
+    <br>
+    <em>NeurIPS</em> 2021 | <a style="color: #447ec9" href="https://arxiv.org/pdf/2103.00841.pdf">paper</a> | <a style="color: #447ec9" href="https://gitee.com/mindspore/models/tree/master/research/cv/FDA-BNN">MindSpore code</a>
+    </p>
+    
+    <p>
+    <li><strong>ReNAS: Relativistic Evaluation of Neural Architecture Search</strong>
+    <br>
+    Yixing Xu, Yunhe Wang, Kai Han, <strong>Yehui Tang</strong>, Shangling Jui, Chunjing Xu, Chang Xu
+    <br>
+    <em>CVPR</em> 2021 | <a style="color: #447ec9" href="https://arxiv.org/pdf/1910.01523.pdf">paper</a>  | <a style="color: #447ec9" href="https://www.mindspore.cn/resources/hub/details?noah-cvlab/gpu/1.1/renas_v1.0_cifar10">MindSpore code</a>
+    </p>  <!-- <span style="color:red"> Oral Presentation</span>-->
+    
+ 
+    <p>
+    <li><strong>Neuromorphic Camera Guided High Dynamic Range Imaging</strong>
+    <br>
+    Jin Han, Chu Zhou, Peiqi Duan, <strong>Yehui Tang</strong>, Chang Xu, Chao Xu, Tiejun Huang, Boxin Shi
+    <br>
+    <em>CVPR</em> 2020 | <a style="color: #447ec9" href="https://ojs.aaai.org/index.php/AAAI/article/view/6058/5914">paper</a>
+    </p>
+      <p>
+      <li><strong>Frequency Domain Compact 3D Convolutional Neural Networks</strong>
+      <br>
+      Hanting Chen, Yunhe Wang, Han Shu, <strong>Yehui Tang</strong>, Chunjing Xu, Boxin Shi, Chao Xu, Qi Tian, Chang Xu
+      <br>
+      <em>CVPR</em> 2020 | <a style="color: #447ec9" href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Frequency_Domain_Compact_3D_Convolutional_Neural_Networks_CVPR_2020_paper.pdf">paper</a>
+      </p>
+      </ol>
+
+    </p>
+  </div>
+
+<!-- The Services Section -->
+  <div class="w3-container w3-light-grey w3-padding-32" id="service">
+    <h2>Services</h2>
+      <p><li> Senior Program Committee Members of IJCAI 2021.</p>  <!--<a href="https://ijcai-21.org/">IJCAI 2021</a>-->
+      <p><li> Program Committee Members of CVPR 2022, ICLR 2022, AAAI 2022, NeurIPS 2021, ICCV 2021, ICML 2021, CVPR 2021, ICLR 2021, etc.</p>
+      <p><li> Journal Reviewers of IEEE T-PAMI, IEEE T-NNLS, Pattern Recognition, Neurocomputing, etc.</p> <!-- <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE T-PAMI</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">IEEE T-NNLS</a>-->
+  </div>
+
+  <!-- The Awards Section -->
+  <div class="w3-container w3-padding-32" id="award">
+    <h2>Awards</h2>
+    <p><li> 2020, President's PhD Scholarship, Peking University.</p>
+    <p><li> 2020, National Scholarship (top 1%), Chinese Ministry of Education.</p>
+    <p><li> 2020, Pacemaker to Merit Student (top 1%), Peking University.</p>
+    <p><li> 2016 National Scholarship (top 1%), Chinese Ministry of Education.</p>
+    <p><li> 2015 National Scholarship (top 1%), Chinese Ministry of Education.</p>
+  </div>  
+
+  <div class="w3-light-grey w3-center w3-padding-24">
+    This website is based on the source code shared by <a href="https://www.wangyunhe.site">Dr. Yunhe Wang</a>. Thanks. 
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
